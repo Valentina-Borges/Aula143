@@ -1,0 +1,22 @@
+/*==========================
+=      Status do jogo
+ ==========================*/
+
+noseX = "";
+noseY = "";
+GameStatus = "";
+
+function startGame()
+{
+    GameStatus = "start";
+    document.getElementByld("status").innerHTML = "O jogo está carregando";
+}
+
+function game(){
+    
+    console.log("noseX = " + noseX +" ,noseY = "+ noseY);
+    instializeInDraw();
+    moveEnvironment(mario);
+    drawSprites();
+}
+
